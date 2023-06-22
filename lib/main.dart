@@ -1,9 +1,22 @@
+import 'package:clean_code_with_retrofit/core/injector/injection_container.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 void main() async {
   await dotenv.load();
 
+  // final dio = DioFactory(ApiConstants.baseUrl);
+
+  // try {
+  //   final data = await MovieRemoteDataSource(dio.create())
+  //       .getTrending(ApiConstants.apiKey, "day");
+
+  //   Logger().i(data);
+  // } on DioException catch (e) {
+  //   // TODO
+  //   Logger().e(e);
+  // }
+  await init();
   runApp(const MyApp());
 }
 
