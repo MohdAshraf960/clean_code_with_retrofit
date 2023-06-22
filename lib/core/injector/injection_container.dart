@@ -22,5 +22,5 @@ Future<void> init() async {
   getIt.registerLazySingleton(() => MovieRemoteDataSource(getIt()));
 
   /// core
-  getIt.registerLazySingleton(() => DioFactory(ApiConstants.baseUrl));
+  getIt.registerLazySingleton(() => DioFactory(ApiConstants.baseUrl).create());
 }

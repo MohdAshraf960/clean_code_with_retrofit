@@ -16,6 +16,7 @@ class TrendingMovieBloc extends Bloc<TrendingMovieEvent, TrendingMovieState> {
 
   _onTrendingMovieFetch(
       TrendingMovieFetched event, Emitter<TrendingMovieState> emit) async {
+    emit(TrendingMovieInitial());
     emit(TrendingMovieLoading());
     final either = await getTrending(
         params: MovieTrendingParams(ApiConstants.apiKey, "day"));
