@@ -1,8 +1,7 @@
-import 'package:clean_code_with_retrofit/data/repositories/movie_repositories_impl.dart';
-import 'package:clean_code_with_retrofit/domain/domain.dart';
 import 'package:get_it/get_it.dart';
-import '../../config/config.dart';
+import '../../domain/domain.dart';
 import '../../data/data.dart';
+import '../../config/config.dart';
 import '../core.dart';
 
 final getIt = GetIt.instance;

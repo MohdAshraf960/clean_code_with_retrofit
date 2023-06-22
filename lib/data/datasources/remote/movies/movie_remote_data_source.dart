@@ -1,4 +1,4 @@
-import '../../data.dart';
+import 'package:clean_code_with_retrofit/data/data.dart';
 import 'package:retrofit/retrofit.dart';
 import 'package:dio/dio.dart';
 
