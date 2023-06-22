@@ -1,1 +1,1 @@
-export 'movie_result_model.dart';
+export 'movies_models/movies_models.dart';

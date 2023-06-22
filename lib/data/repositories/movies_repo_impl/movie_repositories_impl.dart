@@ -1,6 +1,7 @@
-import 'package:clean_code_with_retrofit/data/datasources/remote/movie_remote_data_source.dart';
 import 'package:clean_code_with_retrofit/domain/domain.dart';
 import 'package:dartz/dartz.dart';
+
+import '../../datasources/datasources.dart';
 
 class MovieRepositoryImpl extends MovieRepositories {
   final MovieRemoteDataSource movieRemoteDataSource;

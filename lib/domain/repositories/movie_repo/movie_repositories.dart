@@ -1,5 +1,5 @@
 import 'package:dartz/dartz.dart';
-import '../entities/entities.dart';
+import '../../entities/entities.dart';
 
 abstract class MovieRepositories {
   Future<Either<Exception, List<MovieEntity>>> getTrending(

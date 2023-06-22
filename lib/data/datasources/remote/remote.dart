@@ -1,1 +1,1 @@
-export 'movie_remote_data_source.dart';
+export 'movies/movies.dart';
